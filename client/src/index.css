@@ -1,1 +1,43 @@
 @import "tailwindcss";
+
+/* Custom font styling */
+:root {
+    --font-heading: "Playfair Display", serif;
+    --font-body: "Montserrat", sans-serif;
+}
+
+/* Apply base font to all text */
+body {
+    font-family: var(--font-body);
+}
+
+/* Apply heading font to headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-heading);
+}
+
+/* Custom classes for font usage */
+.font-heading {
+    font-family: var(--font-heading);
+}
+
+.font-body {
+    font-family: var(--font-body);
+}
+
+/* Additional typography enhancements */
+.elegant-title {
+    font-family: var(--font-heading);
+    letter-spacing: -0.025em;
+}
+
+.luxury-text {
+    font-family: var(--font-body);
+    letter-spacing: 0.025em;
+    font-weight: 300;
+}

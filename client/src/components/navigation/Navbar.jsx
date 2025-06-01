@@ -10,15 +10,17 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="bg-white shadow-md">
+        <nav className="bg-white shadow-md sticky top-0 z-50">
+            {/* Main navigation bar */}
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between h-16">
                     <div className="flex items-center">
+                        {" "}
                         <Link
                             to="/"
                             className="flex-shrink-0 flex items-center"
                         >
-                            <span className="text-2xl font-bold text-purple-800">
+                            <span className="text-2xl font-heading font-bold text-purple-800 tracking-wider">
                                 PerfumeShop
                             </span>
                         </Link>
@@ -27,7 +29,7 @@ const Navbar = () => {
                     <div className="hidden md:flex items-center space-x-4">
                         <Link
                             to="/"
-                            className="px-3 py-2 rounded-md text-sm font-medium text-gray-700 hover:text-purple-800 hover:bg-purple-50"
+                            className="px-3 py-2 rounded-md text-sm font-body font-medium text-gray-700 hover:text-purple-800 hover:bg-purple-50"
                         >
                             Home
                         </Link>

@@ -2,7 +2,7 @@
 
 A full-stack e-commerce application for selling premium perfumes, built with React, Node.js, Express, and MongoDB.
 
-![Perfume Shop Banner](https://images.unsplash.com/photo-1615446251839-54da98f54826?q=80&w=1920)
+![Perfume Shop Banner](./client/src/assets/images/Banner.png)
 
 ## Table of Contents
 
